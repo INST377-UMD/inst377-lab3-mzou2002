@@ -1,0 +1,47 @@
+body {
+    background-color: aliceblue;
+}
+
+#bar {
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+    width: 98%;
+    font-family: cursive;
+}
+
+#main-nav {
+    background-color: crimson;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color: black;
+    color: white;
+}
+
+#main-nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+#main-nav li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: black;
+    float: left;
+    padding: 0;
+}
+
+#main-nav uv li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
